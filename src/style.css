@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-main {  display: grid;
+main { 
+  background-image: url('/src/images/bg.png');
+   display: grid;
   grid-template-columns: 0.9fr 1.4fr 1.1fr;
   grid-template-rows: 1.2fr 1.2fr 0.8fr;
   gap: 0px 0px;
@@ -16,3 +18,7 @@ main {  display: grid;
 .Upgrades { grid-area: Upgrades; }
 
 .Main_forlenza_boss { grid-area: Main_forlenza_boss; }
+
+.body {
+  font-family: sans-serif;
+}
