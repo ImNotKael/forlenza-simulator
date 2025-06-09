@@ -42,3 +42,10 @@ function fakeF() {
     alert("You poor noob")
   }
 }
+
+function bigClick() {
+  let basePoint = 1 + (akhterLevel ** 1.05) + (carlosLevel ** 100.0005) + (FakelenzaLevel ** 200.0005)
+
+
+  changePoint(basePoint)
+}
